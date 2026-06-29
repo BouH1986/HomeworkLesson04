@@ -56,8 +56,8 @@ public class Main {
                     break;
                 default:
                     System.out.println("Такой операции нет");
-                }
-                //...
+            }
+            //...
         }
         System.out.println("Программа завершена!");
     }
