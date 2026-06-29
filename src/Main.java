@@ -40,7 +40,6 @@ public class Main {
                     System.out.println("Такой операции нет");
                 }
                 //...
-            }
         }
         System.out.println("Программа завершена!");
 
