@@ -21,8 +21,8 @@ public class Main {
                 switch (operation) {
                 case 1:
                     System.out.println("Введите сумму дохода:");
-                    String moneyStr = scanner.nextLine(); // Не используйте тут nextInt (!)
-                    int money = Integer.parseInt(moneyStr);
+                    moneyStr = scanner.nextLine(); // Не используйте тут nextInt (!)
+                    money = Integer.parseInt(moneyStr);
                     earnings += money;
                     break;
                 case 2:
