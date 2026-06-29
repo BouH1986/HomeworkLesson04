@@ -37,7 +37,7 @@ public class Main {
                     break;
                 case 3:
                     // действия при выборе третьей операции
-                    int taxes01 = earnings * 6 / 100;
+                    int taxes01 = taxEarnings(earnings);
                     int taxes02 = taxEarningsMinusSpendings(earnings, spendings);
                     if (taxes01<taxes02) {
                         System.out.println("Мы советуем вам УСН доходы");
