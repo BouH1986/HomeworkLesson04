@@ -39,7 +39,7 @@ public class Main {
                     // действия при выборе третьей операции
                     int taxes01 = taxEarnings(earnings);
                     int taxes02 = taxEarningsMinusSpendings(earnings, spendings);
-                    if (taxes01<taxes02) {
+                    if (taxes01 < taxes02) {
                         System.out.println("Мы советуем вам УСН доходы");
                         System.out.println("Ваш налог составит:      " + taxes01 + " рублей");
                         System.out.println("Налог на другой системе: " + taxes02 + " рублей");
