@@ -8,6 +8,10 @@ public class Main {
 
         while (true) {
             // Выводим информацию о возможных операциях пользователю
+            System.out.println("Выберите операцию и введите её номер:");
+            System.out.println("1. Добавить новый доход");
+            System.out.println("2. Добавить новый расход");
+            System.out.println("3. Выбрать систему налогообложения");
 
             String input = scanner.nextLine();
             if ("end".equals(input)) {
