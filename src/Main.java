@@ -19,7 +19,7 @@ public class Main {
                 break;
             }
             String moneyStr; //инициализация строки
-            int money;       //инициализация числа 
+            int money;       //инициализация числа
             int operation = Integer.parseInt(input);
             switch (operation) {
                 case 1:
