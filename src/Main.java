@@ -17,6 +17,8 @@ public class Main {
             if ("end".equals(input)) {
                 break;
             }
+            String moneyStr; //инициализация строки
+            int money;       //инициализация числа 
             int operation = Integer.parseInt(input);
                 switch (operation) {
                 case 1:
