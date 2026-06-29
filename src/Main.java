@@ -16,8 +16,8 @@ public class Main {
             String input = scanner.nextLine();
             if ("end".equals(input)) {
                 break;
-            } else {
-                int operation = Integer.parseInt(input);
+            }
+            int operation = Integer.parseInt(input);
                 switch (operation) {
                     case 1:
                         System.out.println("Введите сумму дохода:");
