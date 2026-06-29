@@ -44,7 +44,7 @@ public class Main {
                         System.out.println("Ваш налог составит:      " + taxes01 + " рублей");
                         System.out.println("Налог на другой системе: " + taxes02 + " рублей");
                         System.out.println("Экономия:                " + (taxes02 - taxes01) + " рублей");
-                    } else if (taxes02<taxes01) {
+                    } else if (taxes02 < taxes01) {
                         System.out.println("Мы советуем вам УСН доходы минус расходы");
                         System.out.println("Ваш налог составит:      " + taxes02 + " рублей");
                         System.out.println("Налог на другой системе: " + taxes01 + " рублей");
