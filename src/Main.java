@@ -60,7 +60,6 @@ public class Main {
                 //...
         }
         System.out.println("Программа завершена!");
-
     }
 
     public static int taxEarnings(int earnings, int spendings) {
