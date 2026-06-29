@@ -62,6 +62,10 @@ public class Main {
         System.out.println("Программа завершена!");
     }
 
+    public static int taxEarnings(int earnings) {
+        return earnings * 6 / 100;
+    }
+
     public static int taxEarningsMinusSpendings(int earnings, int spendings) {
         int tax = (earnings - spendings) * 15 / 100;
         if (tax >= 0) {
