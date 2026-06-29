@@ -19,22 +19,25 @@ public class Main {
             }
             int operation = Integer.parseInt(input);
                 switch (operation) {
-                    case 1:
-                        System.out.println("Введите сумму дохода:");
-                        String moneyStr = scanner.nextLine(); // Не используйте тут nextInt (!)
-                        int money = Integer.parseInt(moneyStr);
-                        earnings += money;
-                        break;
-                    case 2:
-                        // действия при выборе второй операции
-                        //...
-                        break;
-                    case 3:
-                        // действия при выборе третьей операции
-                        //...
-                        break;
-                    default:
-                        System.out.println("Такой операции нет");
+                case 1:
+                    System.out.println("Введите сумму дохода:");
+                    String moneyStr = scanner.nextLine(); // Не используйте тут nextInt (!)
+                    int money = Integer.parseInt(moneyStr);
+                    earnings += money;
+                    break;
+                case 2:
+                    // действия при выборе второй операции
+                    System.out.println("Введите сумму расхода:");
+                    moneyStr = scanner.nextLine(); // Не используйте тут nextInt (!)
+                    money = Integer.parseInt(moneyStr);
+                    spendings += money;
+                    break;
+                case 3:
+                    // действия при выборе третьей операции
+
+                    break;
+                default:
+                    System.out.println("Такой операции нет");
                 }
                 //...
             }
