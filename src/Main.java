@@ -21,7 +21,7 @@ public class Main {
             String moneyStr; //инициализация строки
             int money;       //инициализация числа 
             int operation = Integer.parseInt(input);
-                switch (operation) {
+            switch (operation) {
                 case 1:
                     System.out.println("Введите сумму дохода:");
                     moneyStr = scanner.nextLine(); // Не используйте тут nextInt (!)
