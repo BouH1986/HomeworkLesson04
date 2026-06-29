@@ -36,7 +36,22 @@ public class Main {
                     break;
                 case 3:
                     // действия при выборе третьей операции
-
+                    int taxes01 = earnings * 6 / 100;
+                    int taxes02 = taxEarningsMinusSpendings(earnings, spendings);
+                    if (taxes01<taxes02) {
+                        System.out.println("Мы советуем вам УСН доходы");
+                        System.out.println("Ваш налог составит:      " + taxes01 + " рублей");
+                        System.out.println("Налог на другой системе: " + taxes02 + " рублей");
+                        System.out.println("Экономия: " + (taxes02 - taxes01) + " рублей");
+                    } else if (taxes02<taxes01) {
+                        System.out.println("Мы советуем вам УСН доходы минус расходы");
+                        System.out.println("Ваш налог составит:      " + taxes02 + " рублей");
+                        System.out.println("Налог на другой системе: " + taxes01 + " рублей");
+                        System.out.println("Экономия: " + (taxes01 - taxes02) + " рублей");
+                    } else {
+                        System.out.println("Можете выбрать любую систему налогообложения");
+                        System.out.println("Ваш налог составит:      " + taxes01 + " рублей");
+                    }
                     break;
                 default:
                     System.out.println("Такой операции нет");
